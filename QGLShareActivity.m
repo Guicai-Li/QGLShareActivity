@@ -221,7 +221,8 @@
 }
 
 - (void)tappedBackGroundView {
-
+    [self dismiss];
+    [self.delegate didClickedCancel];
 }
 
 - (void)tappedCancel {
